@@ -18,6 +18,7 @@
 		1AB82F2529816F69009A2667 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB82F2429816F69009A2667 /* DownloadViewController.swift */; };
 		1AB82F2729816FC8009A2667 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB82F2629816FC8009A2667 /* CollectionViewTableViewCell.swift */; };
 		1AB82F2929816FE1009A2667 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB82F2829816FE1009A2667 /* HeroHeaderUIView.swift */; };
+		1AB82F2B29817523009A2667 /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB82F2A29817523009A2667 /* ApiCaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1AB82F2429816F69009A2667 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		1AB82F2629816FC8009A2667 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		1AB82F2829816FE1009A2667 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		1AB82F2A29817523009A2667 /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiCaller.swift; path = ../../../../ApiCaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		1AB82F1D29816EF0009A2667 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				1AB82F2A29817523009A2667 /* ApiCaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				1AB82F0729816B80009A2667 /* SceneDelegate.swift in Sources */,
 				1AB82F2129816F3A009A2667 /* UpcomingViewController.swift in Sources */,
 				1AB82F1F29816F2C009A2667 /* HomeViewController.swift in Sources */,
+				1AB82F2B29817523009A2667 /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
